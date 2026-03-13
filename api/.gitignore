@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.env
+venv/
+env/
+.venv/
+
+# Keep .env template, ignore actual .env
+.env
+!.env.example
+
+# Database
+*.db
+*.sqlite3
+
+# Uploads and logs (runtime data)
+uploads/
+logs/
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Alembic
+migrations/versions/*.pyc
